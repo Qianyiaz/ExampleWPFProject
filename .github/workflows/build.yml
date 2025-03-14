@@ -4,11 +4,11 @@ on:
   push:
     paths:
       - "ExampleWPFProject/**"
-      - ".github/workflows/Build.yml"
+      - ".github/workflows/build.yml"
   pull_request:
     paths:
       - "ExampleWPFProject/**"
-      - ".github/workflows/Build.yml"
+      - ".github/workflows/build.yml"
   workflow_dispatch:
 
 jobs:
