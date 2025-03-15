@@ -1,40 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-	<!--Essential-->
 	<UseWPF>true</UseWPF>
 	<OutputType>WinExe</OutputType>
 	<LangVersion>10.0</LangVersion>
 	<TargetFramework>net48</TargetFramework>
-	  
-	<!--Assembly-->
-	<!--<Version>1.0.0</Version>-->
-	<!--<FileVersion>0.0.0.1</FileVersion>-->
-	<!--<Copyright>Copyright © </Copyright>-->
-	<!--<Product>ExampleWPFProject</Product>-->
-	<!--<ApplicationIcon>logo.ico</ApplicationIcon>-->
-	<!--<AssemblyName>ExampleWPFProject</AssemblyName>-->
   </PropertyGroup>
 
   <ItemGroup>
 	<!--Reference-->
-	<Reference Include="System" />
-    <Reference Include="System.Xml" />
-	<Reference Include="System.Core" />
-	<Reference Include="WindowsBase" />
-    <Reference Include="System.Data" />
-	<Reference Include="System.Xaml" />
-    <Reference Include="System.Drawing" />
-	<Reference Include="System.Net.Http" />
-	<Reference Include="System.Xml.Linq" />
-	<Reference Include="PresentationCore" />
-	<Reference Include="Microsoft.CSharp" />
-	<Reference Include="System.Windows.Forms" />
-	<Reference Include="PresentationFramework" />
-    <Reference Include="System.Data.DataSetExtensions" />
+	
 	<!--Others-->
 	<Folder Include="Properties\" /> 
-    <ApplicationDefinition Include="Properties\App.xaml"/>
+    <ApplicationDefinition Include="Properties\App.xaml" />
   </ItemGroup>
 
 </Project>
