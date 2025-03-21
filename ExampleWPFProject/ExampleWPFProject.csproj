@@ -2,16 +2,12 @@
 
   <PropertyGroup>
 	<UseWPF>true</UseWPF>
+  <LangVersion>9</LangVersion>
 	<OutputType>WinExe</OutputType>
-	<LangVersion>10.0</LangVersion>
 	<TargetFramework>net48</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-	<!--Reference-->
-	
-	<!--Others-->
-	<Folder Include="Properties\" /> 
     <ApplicationDefinition Include="Properties\App.xaml" />
   </ItemGroup>
 
