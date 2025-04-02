@@ -2,10 +2,12 @@
 *obj
 *bin
 *.sln
+*.xsd
 *.user
 
 # Rider cache files
 *.idea
+*.DotSettings
 
 # VS cache files
 *.vs

@@ -1,14 +1,11 @@
-﻿namespace ExampleWPFProject
-{
-    public partial class App
-    {
-    }
+﻿namespace ExampleWPFProject;
 
-    public partial class MainWindow
+public partial class App;
+
+public partial class MainWindow
+{
+    public MainWindow()
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }

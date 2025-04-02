@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <UseWPF>true</UseWPF>
-        <LangVersion>9</LangVersion>
         <OutputType>WinExe</OutputType>
+        <LangVersion>Latest</LangVersion>
         <TargetFramework>net48</TargetFramework>
     </PropertyGroup>
 
