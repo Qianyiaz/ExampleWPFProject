@@ -2,13 +2,17 @@ name: .NET Framework Desktop
 
 on:
   push:
+    
     paths:
       - "ExampleWPFProject/**"
       - ".github/workflows/Build.yml"
+    
   pull_request:
+    
     paths:
       - "ExampleWPFProject/**"
       - ".github/workflows/Build.yml"
+    
   workflow_dispatch:
 
 jobs:
@@ -22,10 +26,11 @@ jobs:
     runs-on: windows-latest
 
     env:
-      Name_Project: ExampleWPFProject
+      Debug_File_Name: ExampleWPFProject
       Test_Project_Path: ExampleWPFProject/ExampleWPFProject.csproj 
       
     steps:
+
     - name: Checkout
       uses: actions/checkout@v4
       with:
@@ -46,5 +51,5 @@ jobs:
     - name: Upload a Build Artifact to GitHub
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ matrix.configuration }}-Windows
-        path: ExampleWPFProject/bin/${{ matrix.configuration }}/net48/${{ env.Name_Project }}.exe
+        name: ${{ matrix.configuration }}
+        path: ExampleWPFProject/bin/${{ matrix.configuration }}/net48/${{ env.Debug_File_Name }}.exe
