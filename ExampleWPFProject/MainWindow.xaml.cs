@@ -1,6 +1,10 @@
 ﻿namespace ExampleWPFProject
 {
-    public partial class MainWindow : System.Windows.Window
+    public partial class App
+    {
+    }
+
+    public partial class MainWindow
     {
         public MainWindow()
         {
