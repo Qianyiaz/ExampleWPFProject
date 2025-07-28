@@ -16,3 +16,4 @@ jobs:
         with:
           name: Release
           path: '**/publish/*.exe'
+          
