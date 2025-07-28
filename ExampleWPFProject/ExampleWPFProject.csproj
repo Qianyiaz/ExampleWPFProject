@@ -4,7 +4,7 @@
         <UseWPF>true</UseWPF>
         <OutputType>WinExe</OutputType>
         <LangVersion>Latest</LangVersion>
-        <TargetFramework>net48</TargetFramework>
+        <TargetFramework>net9.0-windows</TargetFramework>
     </PropertyGroup>
 
 </Project>
